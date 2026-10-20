@@ -1,0 +1,112 @@
+[
+ {
+  "id": "hook",
+  "step": "",
+  "src": [
+   "A",
+   "open",
+   "connect"
+  ],
+  "say": "NozyWallet is a shielded-only Zcash wallet. Here's how to install it, receive, and send."
+ },
+ {
+  "id": "install",
+  "step": "1 · Install",
+  "src": [
+   "I",
+   "store",
+   "end"
+  ],
+  "say": "Add NozyWallet from the Chrome Web Store, or grab the latest release on GitHub."
+ },
+ {
+  "id": "connect",
+  "step": "2 · Connect",
+  "src": [
+   "A",
+   "connect",
+   "create"
+  ],
+  "say": "Open it and pick NozyWallet sync. Your keys stay in the extension. You can also use your own Zebra node."
+ },
+ {
+  "id": "create",
+  "step": "3 · Create",
+  "src": [
+   "A",
+   "create",
+   "backup"
+  ],
+  "say": "Tap Create and set a password. It encrypts the wallet on this device."
+ },
+ {
+  "id": "backup",
+  "step": "4 · Back up",
+  "src": [
+   "A",
+   "backup",
+   "home"
+  ],
+  "say": "Write your 24 words down offline. Nobody can recover them for you. Then confirm a few to continue."
+ },
+ {
+  "id": "home",
+  "step": "5 · Receive",
+  "src": [
+   "A",
+   "home",
+   "receive"
+  ],
+  "say": "Your balance is split across the Orchard, Ironwood and Sapling pools."
+ },
+ {
+  "id": "receive",
+  "step": "5 · Receive",
+  "src": [
+   "A",
+   "receive",
+   "end"
+  ],
+  "say": "Tap Receive for your u1 unified address. There are no transparent addresses in Nozy."
+ },
+ {
+  "id": "funded",
+  "step": "5 · Receive",
+  "src": [
+   "B",
+   "balance",
+   "send"
+  ],
+  "say": "Payments to that address show up here once the wallet syncs. Our demo wallet is still empty."
+ },
+ {
+  "id": "send",
+  "step": "6 · Send",
+  "src": [
+   "B",
+   "send",
+   "review"
+  ],
+  "say": "With NozyWallet sync, sends go through the Nozy companion app on this computer. Paste an address, enter an amount, and add a memo if you like."
+ },
+ {
+  "id": "review",
+  "step": "6 · Send",
+  "src": [
+   "B",
+   "review",
+   "activity"
+  ],
+  "say": "Tap Review and Nozy builds the shielded transaction in your browser. Fund the wallet first, or there's nothing to send."
+ },
+ {
+  "id": "outro",
+  "step": "",
+  "src": [
+   "B",
+   "activity",
+   "end"
+  ],
+  "say": "Shielded transactions keep amounts, addresses and memos encrypted on chain. NozyWallet is open source on GitHub."
+ }
+]

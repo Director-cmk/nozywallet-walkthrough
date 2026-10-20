@@ -1,0 +1,171 @@
+1
+00:00:01,292 --> 00:00:03,481
+NozyWallet is a shielded-only
+
+2
+00:00:03,481 --> 00:00:04,462
+Zcash wallet.
+
+3
+00:00:04,462 --> 00:00:06,348
+Here's how to install it,
+
+4
+00:00:06,348 --> 00:00:07,707
+receive, and send.
+
+5
+00:00:09,113 --> 00:00:10,981
+Add NozyWallet from the Chrome
+
+6
+00:00:10,981 --> 00:00:12,787
+Web Store, or grab the latest
+
+7
+00:00:12,787 --> 00:00:13,908
+release on GitHub.
+
+8
+00:00:15,314 --> 00:00:17,229
+Open it and pick NozyWallet
+
+9
+00:00:17,229 --> 00:00:19,145
+sync. Your keys stay in the
+
+10
+00:00:19,145 --> 00:00:21,060
+extension. You can also use
+
+11
+00:00:21,060 --> 00:00:22,479
+your own Zebra node.
+
+12
+00:00:23,885 --> 00:00:26,018
+Tap Create and set a password.
+
+13
+00:00:26,018 --> 00:00:27,796
+It encrypts the wallet on
+
+14
+00:00:27,796 --> 00:00:28,649
+this device.
+
+15
+00:00:30,056 --> 00:00:32,527
+Write your 24 words down offline.
+
+16
+00:00:32,527 --> 00:00:34,549
+Nobody can recover them for
+
+17
+00:00:34,549 --> 00:00:36,496
+you. Then confirm a few to
+
+18
+00:00:36,496 --> 00:00:37,170
+continue.
+
+19
+00:00:38,577 --> 00:00:40,353
+Your balance is split across
+
+20
+00:00:40,353 --> 00:00:41,938
+the Orchard, Ironwood and
+
+21
+00:00:41,938 --> 00:00:42,826
+Sapling pools.
+
+22
+00:00:44,233 --> 00:00:46,399
+Tap Receive for your u1 unified
+
+23
+00:00:46,399 --> 00:00:48,705
+address. There are no transparent
+
+24
+00:00:48,705 --> 00:00:49,962
+addresses in Nozy.
+
+25
+00:00:51,369 --> 00:00:53,163
+Payments to that address show
+
+26
+00:00:53,163 --> 00:00:55,020
+up here once the wallet syncs.
+
+27
+00:00:55,020 --> 00:00:56,938
+Our demo wallet is still empty.
+
+28
+00:00:58,345 --> 00:00:59,729
+With NozyWallet sync,
+
+29
+00:00:59,729 --> 00:01:01,376
+sends go through the Nozy
+
+30
+00:01:01,376 --> 00:01:03,419
+companion app on this computer.
+
+31
+00:01:03,419 --> 00:01:04,540
+Paste an address,
+
+32
+00:01:04,540 --> 00:01:05,594
+enter an amount,
+
+33
+00:01:05,594 --> 00:01:07,374
+and add a memo if you like.
+
+34
+00:01:08,780 --> 00:01:10,376
+Tap Review and Nozy builds
+
+35
+00:01:10,376 --> 00:01:12,034
+the shielded transaction in
+
+36
+00:01:12,034 --> 00:01:12,832
+your browser.
+
+37
+00:01:12,832 --> 00:01:14,182
+Fund the wallet first,
+
+38
+00:01:14,182 --> 00:01:15,840
+or there's nothing to send.
+
+39
+00:01:17,246 --> 00:01:19,013
+Shielded transactions keep
+
+40
+00:01:19,013 --> 00:01:20,916
+amounts, addresses and memos
+
+41
+00:01:20,916 --> 00:01:22,207
+encrypted on chain.
+
+42
+00:01:22,207 --> 00:01:23,906
+NozyWallet is open source
+
+43
+00:01:23,906 --> 00:01:24,586
+on GitHub.

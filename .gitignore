@@ -1,0 +1,9 @@
+node_modules/
+# browser profiles hold wallet data: never commit
+profile*/
+profile-old-address.txt
+rec/
+shots/
+audio/
+out/voice.wav
+out/still-*
